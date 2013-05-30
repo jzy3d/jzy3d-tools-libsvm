@@ -3,10 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.jzy3d</groupId>
     <artifactId>jzy3d-tools-libsvm</artifactId>
-    <version>1.0</version>
-    <!--<version>1.0-SNAPSHOT</version>-->
+    <name>Jzy3d LibSVM</name>
+    <!--<version>0.9.1-SNAPSHOT</version>-->
+    <parent>
+        <groupId>org.jzy3d</groupId>
+        <artifactId>jzy3d-master</artifactId>
+        <version>0.9.1-SNAPSHOT</version>
+    </parent>
 
-    <name>jzy3d-tools-libsvm</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
