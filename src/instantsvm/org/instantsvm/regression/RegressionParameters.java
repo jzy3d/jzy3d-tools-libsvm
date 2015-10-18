@@ -13,7 +13,8 @@ public class RegressionParameters extends Parameters{
 		super(eps, C, gamma);
 	}
 	
-	protected void defaults(){
+	@Override
+    protected void defaults(){
 		super.defaults();
 		param.svm_type = svm_parameter.NU_SVR; //epsilon-SVR, nu-SVR
 		param.kernel_type = 2;

@@ -28,7 +28,8 @@ public class RegressionSVM extends SVM {
 		train(inputs.getX(), inputs.getY());
 	}
 	
-	public Parameters getDefaultParameters(){
+	@Override
+    public Parameters getDefaultParameters(){
 		return new RegressionParameters();
 	}
 }

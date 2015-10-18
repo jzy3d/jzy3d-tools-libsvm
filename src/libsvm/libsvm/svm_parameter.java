@@ -35,7 +35,8 @@ public class svm_parameter implements Cloneable,java.io.Serializable
 	public int shrinking;	// use the shrinking heuristics
 	public int probability; // do probability estimates
 
-	public Object clone() 
+	@Override
+    public Object clone() 
 	{
 		try 
 		{

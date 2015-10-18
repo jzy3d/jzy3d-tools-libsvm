@@ -7,7 +7,8 @@ public class XValResult {
 		this.bestG  = bestG;
 	}
 	
-	public String toString(){
+	@Override
+    public String toString(){
 		return "C = " + bestC + " gamma=" + bestG;
 	}
 	
